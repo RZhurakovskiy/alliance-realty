@@ -1,0 +1,22 @@
+[
+    {
+        "img": "../../img/main-img/team-images/team-img.jpg",
+        "name": "Анастасия Кузнецова",
+        "position": "Специалист по недвижимости"
+    },
+    {
+        "img": "../../img/main-img/team-images/team-img-2.jpg",
+        "name": "Дарья Морозова",
+        "position": "Оценщик недвижимости"
+    },
+    {
+        "img": "../../img/main-img/team-images/team-img-3.jpg",
+        "name": "Виктория Соколова",
+        "position": "Маркетолог"
+    },
+    {
+        "img": "../../img/main-img/team-images/team-img-4.jpg",
+        "name": "Евгения Филиппова",
+        "position": "Юрист"
+    },
+]

@@ -1,0 +1,36 @@
+.benefits {
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    z-index: 2; /* Делаем картах выше всех элементов */
+    position: relative; /* Устанавливаем позицию для дочерних элементов */
+    margin-top: -118px; /* Половина высоты карточек, чтобы они зашли на шапку */
+  }
+
+  &__card {
+    box-shadow: 2px 4px 4px 0 rgba(135, 181, 215, 0.25);
+    background-color: #ffffff;
+    border-radius: 20px;
+    max-width: 312px;
+    width: 100%;
+    height: 236px;
+    padding: 15px;
+    position: relative; /* Позволяет карточкам находиться в общем потоке документа */
+    z-index: 2; /* Выше, чтобы их не перекрывали другие элементы */
+  }
+
+  &__card-title {
+    font-family: var(--font-main);
+   
+    font-size: 18px;
+    color: #0c2540;
+    padding-bottom: 20px;
+  }
+
+  &__card-description {
+    font-family: var(--font-main);
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+  }
+}

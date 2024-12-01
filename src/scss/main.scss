@@ -1,0 +1,19 @@
+/* Base */
+@import './base/reset';
+@import './base/vars';
+@import './base/mixins';
+
+@import './base/base';
+@import './base/docs'; /* Отключить при необходимости */
+@import './base/utils'; // Тест на ошибку
+@import './base/containers';
+@import './base/sticky-footer';
+
+/* Blocks */
+@import './blocks/*.scss';
+
+/* Animations */
+@import './animations/header-animations/*.scss';
+
+@import './media/*.scss'
+

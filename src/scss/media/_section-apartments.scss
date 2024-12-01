@@ -1,0 +1,106 @@
+@media(max-width: 980px) {
+    .section-apartments {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .apartments {
+       
+        &__title {
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 94%;
+            color: #0c2540;
+        }
+        &__title::after {
+            right: 26px;
+            top: 22px;
+        }
+        &__row-description {
+            font-size: 0.875rem;
+        }
+    }
+    .apartment-card{
+    
+   
+        &__description {
+            padding: 10px;
+        }
+        &__title {
+            font-size: 1rem;
+        }
+        &__description li {
+            font-size: 0.875rem;
+        }
+    }
+}
+
+@media(max-width: 740px) {
+    .swiper-container-apartments {
+        height: 655px;
+        margin: 40px auto 0;
+        padding: 0;
+    }
+    .apartments{
+        &__title {
+            width: 529px;
+        }
+        &__title::after {
+            right: 40px;
+            top: 36px;
+        }
+    }
+    .apartment-card {
+        max-width: 400px;
+        height: 590px;
+        &__row {
+        justify-content: center;
+        }
+        &__description {
+            padding: 10px;
+            width: 390px;
+           
+        }
+    &__image img {
+        border-radius: 20px 20px 0 0;
+    }
+    }
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        left: 30%;
+        bottom: 3%;
+    }
+    .arrow-row-apartments {
+        bottom: 3%;
+        left: 7%;
+    }
+    .swiper-button-right-2{
+        width: 25px;
+    }
+    .swiper-button-left-2{
+        width: 25px;
+    }
+}
+
+@media (max-width: 560px) {
+    .swiper-container-apartments {
+        height: 610px;
+    }
+    .apartments {
+        &__title {
+            width: 100%;
+            text-align: center;
+            font-size: 1.4rem;
+        }
+        &__title::after {
+           width: 0;
+        }
+    }
+    .apartment-card {
+        max-width: 350px;
+        height: 540px;
+        &__image img {
+            max-width: 350px;
+            width: 100%;
+            height: 250px;
+        }
+    }
+}

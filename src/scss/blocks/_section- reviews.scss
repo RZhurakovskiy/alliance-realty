@@ -1,0 +1,88 @@
+.section-reviews {
+    padding-top: 40px;
+    background-color: #2D2D2D;
+    position: relative;
+}
+.reviews {
+    &__title {
+        font-family: var(--font-accent);
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 94%;
+        color: #fff;
+    
+        max-width: 449px;
+        width: 100%;
+        margin-left: auto;
+        position: relative;
+    }
+    &__title::before {
+        content: "";
+        position: absolute;
+        left: -115px;
+        top: 17px;
+        width: 70px;
+        height: 1px;
+        background-color: #fff;
+    }
+    &__card{
+        border: 1px solid #fff;
+        max-width: 684px;
+        width: 100%;
+        padding: 20px 30px;
+    }
+    &__text {
+        font-family: var(--font-main);
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 214%;
+        color: #fff;
+    }
+    &__card-bottom {
+        display: flex;
+        align-items: center;
+        max-width: 240px;
+        width: 100%;
+        margin-left: auto;
+
+        gap: 25px;
+    }
+
+    &__card-name {
+        font-family: var(--font-main);
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 214%;
+        color: #fff;
+    }
+    &__card-img {
+        width: 62px;
+        height: 62px;
+        border-radius: 50%;
+    }
+} 
+.swiper-container {
+    overflow-x: hidden;
+    max-width: 684px;
+    width: 100%;
+   
+    margin: 50px auto;
+
+}
+.swiper-slide {
+ width: 100%;
+}
+.arrow-row {
+    position: absolute;
+    top: 80px;
+    display: flex;
+    gap: 25px;
+}
+
+
+.swiper-button-right {
+    cursor: pointer;
+}
+.swiper-button-left {
+    cursor: pointer;
+}

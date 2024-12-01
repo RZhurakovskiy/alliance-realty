@@ -1,0 +1,148 @@
+.section-apartments {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.apartments {
+
+    &__title {
+        font-family: var(--font-accent);
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 94%;
+        color: #0c2540;
+        max-width: 663px;
+        width: 100%;
+        position: relative;
+    }
+    &__title::after {
+        content: "";
+        position: absolute;
+        right: -106px;
+        top: 30px;
+        width: 70px;
+        height: 1px;
+        background-color: #0c2540;
+    }
+}
+
+.swiper-container-apartments {
+    overflow-x: hidden;
+    max-width: 856px;
+    width: 100%;
+    height: 350px;
+    margin: 50px auto 0;
+    position: relative;
+}
+
+.apartment-card {
+    box-shadow: 4px 4px 20px 0 rgba(135, 181, 215, 0.25);
+    border-radius: 20px;
+    max-width: 826px;
+    width: 100%;
+    height: 300px;
+    background: var(--page-bg);
+    margin: 0 auto;
+    position: relative;
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    &__image img {
+        border-radius: 20px 0 0 20px;
+        max-width: 400px;
+        width: 100%;
+        height: 300px;
+    }
+
+    &__description {
+        padding: 20px;
+        line-height: 2rem;
+        width: 40%;
+    }
+    &__price-block {
+        line-height: 2rem;
+        margin-bottom: 5px;
+    }
+    &__price {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    &__description li {
+        line-height: 1.6rem;
+        width: 250px;
+        font-size: 1rem;
+    }
+
+    &__title {
+        font-family: var(--font-main);
+        font-weight: 500;
+        font-size: 1.125rem;
+        line-height: 167%;
+        color: #0c2540;
+    }
+    &__text {
+        font-family: var(--font-main);
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 167%;
+        color: #0c2540;
+    }
+    &__button {
+        font-family: var(--font-accent);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 137%;
+        color: #0c2540;
+        position: relative;
+        padding-bottom: 5px;
+        
+    }
+    &__button::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 30%;
+        height: 1px;
+        background-color: #0c2540;
+    }
+}
+
+
+.button-position {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.arrow-row-apartments {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 4%;
+    width: 80px;
+    z-index: 100;
+}
+.swiper-button-right-2 {
+    cursor: pointer;
+    width: 35px;
+    
+}
+.swiper-button-left-2 {
+    cursor: pointer;
+    width: 35px;
+}
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    position: absolute;
+    bottom: 4%;
+    left: 44%;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #0c2540;
+}

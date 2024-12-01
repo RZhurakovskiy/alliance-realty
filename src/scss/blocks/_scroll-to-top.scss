@@ -1,0 +1,26 @@
+.scroll-to-top {
+	position: fixed;
+	bottom: 1%;
+	right: 0;
+	cursor: pointer;
+	color: #081b74;
+	padding: 5px;
+	border-radius: 5px;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	writing-mode: vertical-rl;
+	text-align: center;
+	z-index: 10000;
+	pointer-events: none;
+	font-size: 14px;
+ }
+ @media(max-width: 520px) {
+	.scroll-to-top {
+		font-size: 12px;
+	}
+ }
+ 
+ .scroll-to-top.show {
+	opacity: 1;
+	pointer-events: auto;
+ }
