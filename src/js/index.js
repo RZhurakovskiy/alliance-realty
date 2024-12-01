@@ -7,25 +7,9 @@ import initializeAccordion from "./modules/questions-accordeon.js";
 import toggleModal from "./modules/feedback-modal.js";
 import initModal from "./modules/feedback-modal.js";
 
-
-
 import Swiper from "swiper/bundle";
 
 import "swiper/css/bundle";
-document.addEventListener("DOMContentLoaded", function() {
-  document.querySelector('.header__row-title').classList.add('animate');
-});
-window.addEventListener('load', function() {
- 
-  setTimeout(() => {
-      let preloader = document.getElementById('preloader');
-      preloader.classList.add('hidden');
-
-
-      let content = document.querySelector('.header__row-content');
-      content.classList.add('visible');
-  }, 1000);
-});
 
 const swiper = new Swiper(".swiper-container", {
   slidesPerView: 1,
